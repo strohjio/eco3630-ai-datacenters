@@ -27,13 +27,13 @@ All the data is already in the repo (`data/raw/` holds every original download,
 with every table and chart already showing.
 
 **B. Run it in Google Colab (nothing to install).**
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-github-username/eco3630-ai-datacenters/blob/main/notebooks/00_start_here.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/strohjio/eco3630-ai-datacenters/blob/main/notebooks/00_start_here.ipynb)
 → **Runtime → Run all**. The first cell downloads the repo and installs the packages (about 1 minute).
 
 **C. Run it in VS Code.** You need [Python 3.10+](https://www.python.org/downloads/) (on
 Windows, tick *Add python.exe to PATH* when installing) and VS Code's Python and Jupyter extensions.
 
-1. Get the code: **Code → Download ZIP** on GitHub and unzip it, or `git clone https://github.com/your-github-username/eco3630-ai-datacenters.git`
+1. Get the code: **Code → Download ZIP** on GitHub and unzip it, or `git clone https://github.com/strohjio/eco3630-ai-datacenters.git`
 2. In VS Code: **File → Open Folder** → the `eco3630-ai-datacenters` folder
 3. **Terminal → New Terminal**, then:
 
