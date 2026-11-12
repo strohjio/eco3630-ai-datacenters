@@ -1,0 +1,32 @@
+geo_id,geo_type,state,treat_month,announce_month,n_sites,site_ids,site_names,operators
+01071,county,AL,2019-07-01,,1,DC001,Google Jackson County (Bridgeport) Data Center,Google
+01089,county,AL,2021-07-01,,1,DC002,Meta Huntsville Data Center,Meta
+04013,county,AZ,2021-07-01,,3,"DC003, DC004, DC005",El Mirage Data Center | Goodyear Data Center | Mesa Data Center,"Meta, Microsoft"
+13097,county,GA,2007-07-01,,1,DC008,Google Douglas County Data Center,Google
+13113,county,GA,2025-10-01,,1,DC010,Microsoft Fairwater Atlanta (QTS Fayetteville campus),Microsoft
+19153,county,IA,2014-07-01,,1,DC011,Meta Altoona Data Center,Meta
+19155,county,IA,2025-05-01,2025-05-01,1,DC012,Google Council Bluffs Data Center,Google
+18003,county,IN,2025-12-01,2024-04-01,1,DC013,Fort Wayne Data Center,Google
+18141,county,IN,2025-06-01,2024-04-01,1,DC018,Northern Indiana Campus (Project Rainier),Amazon
+37027,county,NC,2008-07-01,,1,DC022,Lenoir Data Center,Google
+37035,county,NC,2011-07-01,,1,DC023,Apple Maiden Data Center,Apple
+37161,county,NC,2012-07-01,,1,DC025,Forest City Data Center,Meta
+38021,county,ND,2025-07-01,2023-10-01,1,DC026,"Applied Digital Polaris Forge 1 (Ellendale, ND)",Applied Digital
+31153,county,NE,2019-07-01,,2,"DC028, DC027",Meta Sarpy (Papillion) Data Center | Google Papillion Data Center,"Google, Meta"
+35061,county,NM,2025-01-01,2025-01-01,1,DC029,Meta Los Lunas Data Center,Meta
+32003,county,NV,2020-07-01,,1,DC030,Google Henderson Data Center,Google
+32031,county,NV,2012-07-01,,1,DC031,Apple Reno Data Center,Apple
+39045,county,OH,2024-01-01,,1,DC032,Lancaster Data Center (Google),Google
+39089,county,OH,2021-07-01,2025-07-01,3,"DC037, DC035, DC036","New Albany Data Center (Google) | Meta New Albany Data Center (incl. Prometheus AI cluster) | Meta Prometheus (New Albany, OH)","Google, Meta"
+40097,county,OK,2025-08-01,2025-08-01,1,DC040,Google Mayes County (Pryor) Data Center,Google
+41013,county,OR,2011-07-01,,1,DC041,Meta Prineville Data Center,Meta
+41065,county,OR,2024-12-01,2024-12-01,1,DC042,Google The Dalles Data Center,Google
+47125,county,TN,2019-07-01,,1,DC049,Google Montgomery County (Clarksville) Data Center,Google
+47157,county,TN,2024-09-01,2024-06-01,2,"DC050, DC051","xAI Colossus 1 (Memphis) | xAI Colossus 2 (Tulane Rd, Whitehaven)",xAI
+48027,county,TX,2026-07-01,2022-03-01,1,DC053,Temple Data Center,Meta
+48029,county,TX,2008-07-01,,1,DC054,"Microsoft San Antonio (Westover Hills, original SN1) Data Center",Microsoft
+48439,county,TX,2017-07-01,,1,DC063,Meta Fort Worth Data Center,Meta
+48441,county,TX,2025-09-01,2025-01-01,1,DC064,Stargate Abilene (Crusoe / Lancium Clean Campus),OpenAI / Oracle (Stargate)
+51087,county,VA,2020-07-01,,1,DC068,Meta Henrico Data Center,Meta
+53025,county,WA,2007-07-01,,1,DC079,Microsoft Quincy (Columbia) Data Center,Microsoft
+55101,county,WI,2026-06-01,2023-03-01,1,DC080,"Microsoft Fairwater (Mount Pleasant, WI)",Microsoft

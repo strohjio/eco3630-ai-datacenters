@@ -1,0 +1,38 @@
+table,variable,rows,places,first,last,not_finite,out_of_range,min,max,host_places_covered,host_series_with_gaps,note
+zhvi,zhvi,1598209.0,12040.0,2015-01-01,2026-09-01,0.0,0.0,13636.31,4977578.862,15/15,0.0,
+zori,zori,469420.0,8340.0,2015-01-01,2026-09-01,0.0,193.0,515.637,103750.0,12/15,1.0,
+zori,!,,,,,,,,,,,CHECK: zori: 193 values outside 200-20000
+elec_state,elec_customers_res,10200.0,51.0,2010-01-01,2026-08-01,0.0,0.0,226548.0,15000882.0,,,
+elec_state,elec_price_com,10200.0,51.0,2010-01-01,2026-08-01,0.0,0.0,5.52,48.048,,,
+elec_state,elec_price_ind,10200.0,51.0,2010-01-01,2026-08-01,0.0,0.0,2.018,43.366,,,
+elec_state,elec_price_res,10200.0,51.0,2010-01-01,2026-08-01,0.0,0.0,6.731,52.721,,,
+elec_state,elec_sales_com_mwh,10200.0,51.0,2010-01-01,2026-08-01,0.0,0.0,126343.74,18258308.0,,,
+elec_state,elec_sales_ind_mwh,10200.0,51.0,2010-01-01,2026-08-01,0.0,0.0,2918.65,17037731.0,,,
+elec_state,elec_sales_res_mwh,10200.0,51.0,2010-01-01,2026-08-01,0.0,0.0,104574.0,22481421.0,,,
+elec_utility,elec_customers_res,39250.0,435.0,2019-01-01,2026-08-01,0.0,0.0,0.0,5434323.0,,,
+elec_utility,elec_price_com,38908.0,429.0,2019-01-01,2026-08-01,0.0,133.0,1.182,288.431,,,
+elec_utility,elec_price_ind,35737.0,399.0,2019-01-01,2026-08-01,0.0,425.0,0.149,3338.889,,,
+elec_utility,elec_price_res,37009.0,408.0,2019-01-01,2026-08-01,0.0,2.0,0.684,77.689,,,
+elec_utility,elec_sales_com_mwh,39248.0,435.0,2019-01-01,2026-08-01,0.0,0.0,0.0,6231654.629,,,
+elec_utility,elec_sales_ind_mwh,39239.0,435.0,2019-01-01,2026-08-01,0.0,0.0,0.0,3303321.656,,,
+elec_utility,elec_sales_res_mwh,39248.0,435.0,2019-01-01,2026-08-01,0.0,0.0,0.0,8042989.0,,,
+elec_utility,!,,,,,,,,,,,CHECK: elec_price_com: 133 values outside 2-80
+elec_utility,!,,,,,,,,,,,CHECK: elec_price_ind: 425 values outside 1-80
+elec_utility,!,,,,,,,,,,,CHECK: elec_price_res: 2 values outside 2-80
+elec_county,elec_price_res_cty,256281.0,2804.0,2019-01-01,2026-08-01,0.0,1.0,1.716,73.042,13/15,,
+elec_county,!,,,,,,,,,,,CHECK: elec_price_res_cty: 1 values outside 2-80
+delinq,delinq_30_89,111471.0,509.0,2008-01-01,2026-03-01,0.0,0.0,0.0,11.5,9/15,0.0,
+delinq,delinq_90,111471.0,509.0,2008-01-01,2026-03-01,0.0,0.0,0.0,13.8,9/15,0.0,
+proptax,proptax_rate_per100,1044.0,14.0,2016-01-01,2027-12-01,0.0,0.0,1.538,23.54,14/15,,
+water,water_bill_5k,757.0,12.0,2012-10-01,2026-10-01,0.0,0.0,19.6,57.09,12/15,0.0,
+controls_county,labor_force,25688.0,3222.0,2018-01-01,2025-01-01,0.0,0.0,45.0,5163996.0,15/15,,
+controls_county,med_hh_income,18854.0,3152.0,2019-01-01,2024-01-01,0.0,0.0,22901.0,177457.0,15/15,,
+controls_county,pop,47140.0,3153.0,2010-01-01,2024-01-01,0.0,0.0,46.0,10105708.0,15/15,,
+controls_county,pop_growth_pct,43987.0,3153.0,2011-01-01,2024-01-01,0.0,6.0,-60.355,33.708,15/15,,
+controls_county,poverty_rate,18854.0,3152.0,2019-01-01,2024-01-01,0.0,0.0,2.7,55.7,15/15,,
+controls_county,unemp_rate,25688.0,3222.0,2018-01-01,2025-01-01,0.0,0.0,0.7,26.5,15/15,,
+controls_county,unemp_rate_m,41951.0,3221.0,2025-08-01,2026-09-01,0.0,0.0,0.3,31.9,15/15,15.0,
+controls_county,!,,,,,,,,,,,CHECK: pop_growth_pct: 6 values outside -30-30
+controls_nation,cpi,956.0,1.0,1947-01-01,2026-09-01,0.0,0.0,21.48,336.298,,,
+controls_nation,mortgage30,668.0,1.0,1971-04-01,2026-11-01,0.0,0.0,2.684,18.454,,,
+proptax_bill_panel,log_tax_index,614.0,91.0,,,0.0,,,,,,ERROR: 52 duplicate town-years

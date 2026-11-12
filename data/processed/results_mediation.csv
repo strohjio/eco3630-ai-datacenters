@@ -1,0 +1,4 @@
+outcome,spec,coef,se,pvalue,ci_low,ci_high,n_obs,n_clusters,n_counties,months,note
+Mortgages 90+ days late (pct. points),"per 1 SD faster cost index (home values + electricity), 12 months earlier",-0.011556484,0.01261396,0.3595797,-0.036279391,0.013166423,13320,222,222,2021-01 to 2025-12,
+Mortgages 90+ days late (pct. points),"per 1 SD faster home value growth only, 12 months earlier",-0.020382216,0.0081494205,0.012382105,-0.036354787,-0.0044096458,23424,244,244,2018-01 to 2025-12,implied effect of AI via home values: -0.0204 x +0.29% / 5.71% SD = -0.0010 pct. points
+Mortgages 90+ days late (pct. points),"per 1 SD faster electricity price growth only, 12 months earlier",0.0041288519,0.0076955337,0.59159526,-0.010954117,0.019211821,13320,222,222,2021-01 to 2025-12,

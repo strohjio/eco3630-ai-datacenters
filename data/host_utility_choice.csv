@@ -1,0 +1,16 @@
+county_fips,state,site_names,utility_key,utility_name,basis,verified
+04013,AZ,Mesa Data Center,16572_AZ,Salt River Project,"SRP supplies the Meta Mesa site (KTAR, 2023: ktar.com/arizona-news/meta-secures-power-for-mesa-data-center-through-deal-with-srp-orsted)",True
+13113,GA,Microsoft Fairwater Atlanta (QTS Fayetteville campus),7140_GA,Georgia Power Co,auto: largest residential utility in the county,False
+19155,IA,Google Council Bluffs Data Center,12341_IA,MidAmerican Energy Co,auto: largest residential utility in the county,False
+18003,IN,Fort Wayne Data Center,9324_IN,Indiana Michigan Power Co,auto: largest residential utility in the county,False
+18141,IN,Northern Indiana Campus (Project Rainier),9324_IN,Indiana Michigan Power Co,"I&M serves AWS New Carlisle (Indiana IURC large-load settlement, 2025)",True
+38021,ND,"Applied Digital Polaris Forge 1 (Ellendale, ND)",12199_ND,Montana-Dakota Utilities Co,auto: largest residential utility in the county,False
+35061,NM,Meta Los Lunas Data Center,15473_NM,Public Service Co of NM,auto: largest residential utility in the county,False
+39045,OH,Lancaster Data Center (Google),14006_OH,Ohio Power Co,auto: largest residential utility in the county,False
+39089,OH,"Meta New Albany Data Center (incl. Prometheus AI cluster) | Meta Prometheus (New Albany, OH)",14006_OH,Ohio Power Co,auto: largest residential utility in the county,False
+40097,OK,Google Mayes County (Pryor) Data Center,,City of Pryor - Municipal Utility Board (EIA 15462),"Homes in Pryor buy power from the city's Municipal Utility Board (mubpryor.org, checked by team 2026-11-12). It files EIA's annual short form only, so it has no monthly prices: Pryor is left out of the electricity regression",True
+41065,OR,Google The Dalles Data Center,14354_OR,PacifiCorp,Team check 2026-11-12: Pacific Power serves The Dalles homes. Note: Northern Wasco County PUD also sells power in the city (pays the city a 3% franchise fee) but is not in EIA's monthly survey,False
+47157,TN,"xAI Colossus 1 (Memphis) | xAI Colossus 2 (Tulane Rd, Whitehaven)",12293_TN,City of Memphis - (TN),auto: largest residential utility in the county,False
+48027,TX,Temple Data Center,,,none in EIA monthly survey (Texas retail choice or small utilities only),False
+48441,TX,Stargate Abilene (Crusoe / Lancium Clean Campus),,,none in EIA monthly survey (Texas retail choice or small utilities only),False
+55101,WI,"Microsoft Fairwater (Mount Pleasant, WI)",20847_WI,Wisconsin Electric Power Co,auto: largest residential utility in the county,False

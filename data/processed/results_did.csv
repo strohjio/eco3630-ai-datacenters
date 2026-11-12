@@ -1,0 +1,13 @@
+outcome,spec,coef,se,pvalue,ci_low,ci_high,n_obs,n_hosts,n_clusters,perm_p,model,perm_groups,perm_coef,loo_min,loo_max,most_influential_site,coef_without_it,pre_bins_off_zero
+Home values (%),main,0.28711882,0.95788142,0.76437274,-1.5902943,2.1645319,8393,15,15,0.82,zhvi_strict,15,0.28711882,-0.41946736,0.70593892,58436,-0.41946736,0.090909091
+Home values (%),"+ county unemployment, income",0.44388397,0.71697853,0.53584813,-0.96136812,1.8491361,6996,15,15,,zhvi_strict,,,,,,,
+"Home values (%), broad sample",main,1.8068644,1.1153932,0.10524626,-0.37926615,3.992995,13893,23,23,0.04,zhvi_broad,23,1.8068644,1.0217661,2.1575863,35810,1.0217661,0
+"Home values (%), broad sample","+ county unemployment, income",2.6186939,1.355292,0.053334954,-0.037629722,5.2750175,11209,23,23,,zhvi_broad,,,,,,,
+Rents (%),main,6.3975481,5.370283,0.23354095,-4.1280132,16.923109,2091,12,13,0,zori_strict,7,6.1574452,1.0240609,10.005512,79601,1.0240609,0
+Rents (%),"+ county unemployment, income",3.2825451,3.3544722,0.32779849,-3.2920996,9.8571898,1666,10,12,,zori_strict,,,,,,,
+Residential electricity price (%),main,2.9401198,2.4082711,0.22214565,-1.7800049,7.6602444,4487,10,10,0.28333333,elec_strict,9,2.9129528,1.3288906,4.4981812,16572_AZ,1.3288906,0.18181818
+Mortgages 90+ days late (pct. points),main,0.0023129482,0.045890475,0.95980245,-0.08763073,0.092256627,1352,7,7,0.98333333,delinq_strict,7,0.0023129482,-0.038736777,0.030019818,39045,-0.038736777,0.18181818
+Mortgages 90+ days late (pct. points),"+ county unemployment, income",0.031606519,0.04392562,0.47180436,-0.054486113,0.11769915,1276,7,7,,delinq_strict,,,,,,,
+Estimated property tax bill (%),main,2.2007209,4.2207826,0.60208736,-6.0718611,10.473303,614,9,9,0.57666667,tax_strict,9,2.2007209,-1.8393312,4.9353682,38109,-1.8393312,0
+Residential electricity price (%),+ each utility's own linear trend,-3.3700476,2.3958193,0.15953512,-8.0657672,1.325672,4487,10,10,,elec_strict,,,,,,,
+Residential electricity price (%),timed at announcement,4.7053557,1.7545241,0.0073218128,1.2665516,8.1441598,4942,10,10,0.096666667,elec_strict,9,4.7758737,3.5988028,5.6835031,16572_AZ,3.5988028,

@@ -1,0 +1,34 @@
+# API keys: never commit
+.env
+
+# Raw downloads ARE committed (all public data, largest file 15 MB) so every
+# script can be re-run straight after cloning. Only skip zip archives.
+data/raw/**/*.zip
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# The four biggest processed tables are committed compressed (.csv.gz);
+# ignore any old uncompressed copies
+data/processed/zhvi.csv
+data/processed/zori.csv
+data/processed/elec_utility.csv
+data/processed/elec_county.csv
+
+# Earlier duplicate tax/water pipeline, kept for reference only
+_superseded/
+
+# Zillow home values are committed as 5 split pieces (each under GitHub's
+# size warning); the unsplit copy is the same data
+data/raw/Zip_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month_study.csv

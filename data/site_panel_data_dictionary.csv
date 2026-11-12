@@ -1,0 +1,39 @@
+column,meaning,example
+site_id,"Unique ID. Join on this, never on the name.",DC013
+site_name,Facility name.,Fort Wayne Data Center
+operator,"Company running it, as written in sources.",Amazon / AWS
+operator_parent,Standardized parent company. Use this to group or count by company.,Amazon
+ai_tier,AI-purpose-built | Hyperscale-AI-documented | Colocation-AI-tenancy-unconfirmed | Unclear.,AI-purpose-built
+ai_evidence_level,How specific the AI evidence is: purpose-built > facility > region/state > fleet (company-wide only) > none.,facility
+status,Operating | Under construction | Announced/Permitted | Proposed | Cancelled/Withdrawn.,Operating
+sample_strict_ai,"True = in the 17-site headline sample: operating, dated, has a ZIP, and AI evidence is purpose-built or facility-specific.",True
+sample_broad_ai,"True = in the 37-site robustness sample: operating, dated, has a ZIP, any AI evidence level.",True
+campus_group,Rows on the same campus share a label. Collapse to one per county so it isn't double counted. Blank = standalone.,xAI Memphis
+announce_year,Year publicly announced. Blank = not confirmed.,2024
+operational_year,Year it began operating. Blank = not operating or not confirmed.,2025
+anchor_year,"Opening year if operating, else announcement year.",2025
+anchor_type,opening | announcement | none.,opening
+ai_era_start_year,Year AI activity began. Differs from opening for older campuses that added AI later.,2025
+treat_month,Month AI activity began (YYYY-MM). The treatment date for the strict sample. Filled for all 17 strict sites.,2025-12
+treat_month_basis,"Where treat_month comes from, including estimates, year-only dates and source disagreements.",operational Dec 2025
+announce_month,Month the project or its AI expansion was announced (YYYY-MM). Second treatment date for announcement effects. Blank = month not stated in sources.,2024-04
+street_address,Published facility address. Blank = none published.,6015 Adams Center Rd
+city,City or town.,Fort Wayne
+county,County the facility sits in.,Allen
+state,2-letter state code.,IN
+county_fips,"5-digit county FIPS. Join key for EIA, Census, BLS LAUS and CFPB county data. Read as text.",18003
+zip,"5-digit ZIP, 'none' (confirmed no address), or 'not yet verified'. Join key for Zillow. Read as text.",46816
+zip_basis,facility address | town-level (no facility address published) | none | not yet verified. Use only 'facility address' rows for ZIP-level housing analysis.,facility address
+zip_county_check,ok = ZIP's main county matches. 'differs' = ZIP crosses county lines (normal near borders).,ok
+zip_lat,"Latitude of the ZIP's center point, NOT the facility.",41.02
+zip_lon,"Longitude of the ZIP's center point, NOT the facility.",-85.10
+scale,"Reported size or investment, as text.",$2B announced investment
+scale_mw,"Power capacity in megawatts, where published. Blank = not published.",1000
+ai_evidence,One sentence explaining the AI tier.,IEDC says the site will power Google's AI.
+ai_evidence_url,Source for ai_evidence.,https://...
+primary_source_url,Main source for the site.,https://...
+year_source_url,Source for the dates.,https://...
+address_source_url,Source for the address and ZIP.,https://...
+split_from,"If an older multi-town row was split into separate facilities, the original row name.",Ohio Campuses
+verification,"re-verified Nov 2026, or NOT re-verified (5 South Carolina rows still need checking).",re-verified Nov 2026
+notes,"Caveats: status changes, conflicting sources, pauses, corrected ZIPs.",ZIP corrected from 46802 to 46816.

@@ -1,0 +1,33 @@
+geo_id,geo_type,state,treat_month,announce_month,n_sites,site_ids,site_names,operators
+35810,zip,AL,2021-07-01,,1,DC002,Meta Huntsville Data Center,Meta
+85212,zip,AZ,2025-01-01,,1,DC005,Mesa Data Center,Meta
+85335,zip,AZ,2021-07-01,,1,DC003,El Mirage Data Center,Microsoft
+85395,zip,AZ,2021-07-01,,1,DC004,Goodyear Data Center,Microsoft
+30122,zip,GA,2007-07-01,,1,DC008,Google Douglas County Data Center,Google
+30214,zip,GA,2025-10-01,,1,DC010,Microsoft Fairwater Atlanta (QTS Fayetteville campus),Microsoft
+50009,zip,IA,2014-07-01,,1,DC011,Meta Altoona Data Center,Meta
+51501,zip,IA,2025-05-01,2025-05-01,1,DC012,Google Council Bluffs Data Center,Google
+46552,zip,IN,2025-06-01,2024-04-01,1,DC018,Northern Indiana Campus (Project Rainier),Amazon
+46816,zip,IN,2025-12-01,2024-04-01,1,DC013,Fort Wayne Data Center,Google
+28043,zip,NC,2012-07-01,,1,DC025,Forest City Data Center,Meta
+28645,zip,NC,2008-07-01,,1,DC022,Lenoir Data Center,Google
+28650,zip,NC,2011-07-01,,1,DC023,Apple Maiden Data Center,Apple
+58436,zip,ND,2025-07-01,2023-10-01,1,DC026,"Applied Digital Polaris Forge 1 (Ellendale, ND)",Applied Digital
+68059,zip,NE,2019-07-01,,1,DC028,Meta Sarpy (Papillion) Data Center,Meta
+68138,zip,NE,2021-07-01,,1,DC027,Google Papillion Data Center,Google
+89011,zip,NV,2020-07-01,,1,DC030,Google Henderson Data Center,Google
+89434,zip,NV,2012-07-01,,1,DC031,Apple Reno Data Center,Apple
+43054,zip,OH,2021-07-01,2025-07-01,2,"DC037, DC035",New Albany Data Center (Google) | Meta New Albany Data Center (incl. Prometheus AI cluster),"Google, Meta"
+43062,zip,OH,2025-09-01,2025-07-01,1,DC036,"Meta Prometheus (New Albany, OH)",Meta
+43130,zip,OH,2024-01-01,,1,DC032,Lancaster Data Center (Google),Google
+74361,zip,OK,2025-08-01,2025-08-01,1,DC040,Google Mayes County (Pryor) Data Center,Google
+97058,zip,OR,2024-12-01,2024-12-01,1,DC042,Google The Dalles Data Center,Google
+97754,zip,OR,2011-07-01,,1,DC041,Meta Prineville Data Center,Meta
+37040,zip,TN,2019-07-01,,1,DC049,Google Montgomery County (Clarksville) Data Center,Google
+38109,zip,TN,2024-09-01,2024-06-01,2,"DC050, DC051","xAI Colossus 1 (Memphis) | xAI Colossus 2 (Tulane Rd, Whitehaven)",xAI
+76177,zip,TX,2017-07-01,,1,DC063,Meta Fort Worth Data Center,Meta
+76502,zip,TX,2026-07-01,2022-03-01,1,DC053,Temple Data Center,Meta
+79601,zip,TX,2025-09-01,2025-01-01,1,DC064,Stargate Abilene (Crusoe / Lancium Clean Campus),OpenAI / Oracle (Stargate)
+23150,zip,VA,2020-07-01,,1,DC068,Meta Henrico Data Center,Meta
+98848,zip,WA,2007-07-01,,1,DC079,Microsoft Quincy (Columbia) Data Center,Microsoft
+53177,zip,WI,2026-06-01,2023-03-01,1,DC080,"Microsoft Fairwater (Mount Pleasant, WI)",Microsoft
